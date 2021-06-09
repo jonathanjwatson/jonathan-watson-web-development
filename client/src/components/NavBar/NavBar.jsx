@@ -36,11 +36,11 @@ const NavBarBright = () => {
         preventScrolling: true,
       }}
     >
-      <NavItem href="/about">About</NavItem>
-      <NavItem href="/speaking-and-training">Speaking and Training</NavItem>
+      <NavItem href="/#about-us">About</NavItem>
+      {/* <NavItem href="/speaking-and-training">Speaking and Training</NavItem>
       <NavItem href="/portfolio">Portfolio</NavItem>
       <NavItem href="/uses">Uses</NavItem>
-      <NavItem href="/contact">Contact</NavItem>
+      <NavItem href="/contact">Contact</NavItem> */}
     </Navbar>
   );
 };
