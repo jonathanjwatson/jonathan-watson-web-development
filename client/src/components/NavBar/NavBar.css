@@ -13,12 +13,25 @@ nav .brand-logo {
 }
 
 nav #brand-logo-image {
-  margin-top:7%;
+  margin-top: 7px;
+  max-height: 50px;
+}
+
+nav #brand-logo-text {
+  padding-left: 7rem;
+  font-size: 2.5rem;
+  color: #039be5;
 }
 
 nav .sidenav-trigger {
   float: right;
   color: #5a5a5b;
+}
+
+@media only screen and (max-width: 993px) {
+  nav #brand-logo-text {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -30,7 +43,7 @@ nav .sidenav-trigger {
   }
   nav #brand-logo-image {
     height: 1em;
-    margin-top: 15%
+    margin-top: 15%;
   }
 }
 @media only screen and (min-width: 992px) {

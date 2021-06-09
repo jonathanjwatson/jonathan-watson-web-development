@@ -1,0 +1,21 @@
+.home-header {
+  background: url("../../assets/pexels-johannes-plenio-1103970.jpg");
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 30vh;
+  height: 80vh;
+}
+
+#home-title {
+  /* text-shadow: 5px 0 0.5rem #039be5; */
+  font-family: "Padauk", sans-serif;
+  font-size: 8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #home-title {
+    font-size: 5rem;
+  }
+}

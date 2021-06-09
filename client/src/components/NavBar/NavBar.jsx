@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import NavLogo from "../../assets/NavLogo.jpg";
+import Mark from "../../assets/Mark.png";
 import { NavLink } from "react-router-dom";
 import { Navbar, NavItem } from "react-materialize";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,9 +11,16 @@ const NavBarBright = () => {
     <Navbar
       alignLinks="right"
       brand={
-        <NavLink to="/" className="brand-logo">
-          <img src={NavLogo} id="brand-logo-image" alt="Jonathan Watson Web Development Logo"/>
-        </NavLink>
+        <>
+          <NavLink to="/" className="brand-logo">
+            <img
+              src={Mark}
+              id="brand-logo-image"
+              alt="Jonathan Watson Web Development Logo"
+            />
+          </NavLink>
+          <span id="brand-logo-text">Jonathan Watson Web Development</span>
+        </>
       }
       menuIcon={<FontAwesomeIcon icon={faBars}>Menu</FontAwesomeIcon>}
       id="mobile-nav"
