@@ -8,11 +8,33 @@
   height: 80vh;
 }
 
+.home-section{
+    margin-top: 2em;
+}
+
+.home-photo{
+    width: 100%;
+    border-radius: 15%;
+}
+
 #home-title {
   /* text-shadow: 5px 0 0.5rem #039be5; */
   font-family: "Padauk", sans-serif;
   font-size: 8rem;
 }
+
+  
+  @media only screen and (max-width: 600px) {
+    #about-photo {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) {
+    #about-photo {
+      float: right;
+    }
+  }
 
 @media only screen and (max-width: 600px) {
   #home-title {
