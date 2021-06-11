@@ -9,7 +9,7 @@ const Connect = () => {
           <h1>Coming Soon!</h1>
         </div>
       </div>
-      <div className="row">
+      {/* <div className="row">
         <div className="col s12">
           <h2> Sign Up for Newsletter Updates</h2>{" "}
         </div>
@@ -31,7 +31,7 @@ const Connect = () => {
           <h2>Twitter</h2>
           <button>Follow</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
