@@ -49,9 +49,9 @@ const NavBarBright = () => {
       >
         Articles
       </NavItem>
-      <NavItem href="/connect">
+      {/* <NavItem href="/connect">
         Connect
-      </NavItem>
+      </NavItem> */}
       {/* <NavItem href="/speaking-and-training">Speaking and Training</NavItem>
       <NavItem href="/portfolio">Portfolio</NavItem>
       <NavItem href="/uses">Uses</NavItem>
