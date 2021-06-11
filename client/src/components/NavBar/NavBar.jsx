@@ -37,6 +37,21 @@ const NavBarBright = () => {
       }}
     >
       <NavItem href="/#about-us">About</NavItem>
+      <NavItem
+        href="https://www.youtube.com/channel/UCCDmcwZ1DBlFzDoRcTnoLDw"
+        target="_blank"
+      >
+        Tutorials
+      </NavItem>
+      <NavItem
+        href="https://jonathanwatsonwebdevelopment.medium.com/"
+        target="_blank"
+      >
+        Articles
+      </NavItem>
+      <NavItem href="/connect">
+        Connect
+      </NavItem>
       {/* <NavItem href="/speaking-and-training">Speaking and Training</NavItem>
       <NavItem href="/portfolio">Portfolio</NavItem>
       <NavItem href="/uses">Uses</NavItem>
