@@ -5,7 +5,8 @@ const Connect = () => {
     <div className="container">
       <div className="row">
         <div className="col s12">
-          <h1>Let's Connect</h1>
+          {/* <h1>Let's Connect</h1> */}
+          <h1>Coming Soon!</h1>
         </div>
       </div>
       <div className="row">
